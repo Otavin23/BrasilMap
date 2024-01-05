@@ -18,7 +18,7 @@ ReactDOM.render(
 const map = new jsVectorMap({
   selector: "#map",
   map: "brasil",
-
+  showTooltip: false,
   regionStyle: {
     initial: {
       fill: "#ff5566",
